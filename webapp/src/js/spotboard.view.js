@@ -77,11 +77,11 @@ function($, Handlebars, Spotboard) {
 '.problem-result.problem-' + pid + ' b:before { content: "' + problems[i].getName() + '"; }\n'
             );
             if(probColor) $style.append(
-'.balloon.problem-' + pid + ' { background-image: url(assets/balloons/' + probColor + '.png); }\n'
+'.balloon.problem-' + pid + ' { background-image: url(/spotboard/assets/balloons/' + probColor + '.png); }\n'
             );
 
             // balloon 이미지를 prefetch (DOM 그린 후 요청하면 풍선이 너무 늦게 뜸)
-            new Image().src = 'assets/balloons/' + probColor + '.png';
+            new Image().src = '/spotboard/assets/balloons/' + probColor + '.png';
         }
 
         $('head').append($style);

@@ -2,7 +2,7 @@
  * Contest Configuration
  */
 
-feed_server_path = './sample/';
+feed_server_path = './sample/`';
 
 config =
 {
@@ -23,7 +23,7 @@ config =
         'events_ws' : (feed_server_path + 'events')
             .replace('http://', 'ws://')
             .replace('https://', 'wss://'),
-        'award_slide.json' :'./sample/award_slide.json'
+        'award_slide.json' : (feed_server_path + 'award.json')
     },
 
     /**
@@ -115,22 +115,6 @@ config =
      */
     //foreign_teams : [ 2000, 2001 ],
     foreign_teams : function(team) {
-        /* an example config */
-        var foreign_teams_list = [2000, 2001];
-        var foreign_affiliations = [
-            "Peking University",
-            "National Taiwan University",
-            "National Chiao Tung University",
-            "National Taiwan Normal University",
-            "The Chinese Univeersity of Hong Kong",
-            "Kyoto University",
-            "University of Aizu"
-        ];
-
-        var teamId = team.getId(),
-            affiliation = team.getGroup();
-        if (foreign_teams_list.indexOf(teamId) >= 0) return true;
-        if (foreign_affiliations.indexOf(affiliation) >= 0) return true;
         return false;
     },
 

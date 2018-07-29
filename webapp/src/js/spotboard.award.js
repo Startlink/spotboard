@@ -333,7 +333,7 @@ function($, Spotboard) {
                 if (!icon || added[icon]) return;
                 added[icon] = true;
                 $style.append(
-'.award-medalist.'+icon+' .team-name:after { background-image: url("../img/award/'+icon+'.png"); }\n'
+'.award-medalist.'+icon+' .team-name:after { background-image: url("/spotboard/img/award/'+icon+'.png"); }\n'
                 );
             });
             $('head').append($style);
