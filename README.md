@@ -16,7 +16,7 @@ Demo
     [[2015]](https://youtu.be/kF5RR2TXgkk?t=287)
     [[2016]](https://www.facebook.com/icpckorea/videos/1249185941806137/)
 
-* [Baekjoon Online Judge](https://www.acmicpc.net): [UCPC 2018](https://www.acmicpc.net/contest/spotboard/314) [UCPC 2018 Award Mode](https://www.acmicpc.net/contest/spotboard/314?award=true&r=9461712)
+* [Baekjoon Online Judge](https://www.acmicpc.net): [[UCPC 2018]](https://www.acmicpc.net/contest/spotboard/314) [[UCPC 2018 Award Mode]](https://www.acmicpc.net/contest/spotboard/314?award=true&r=9461712)
 
 Usage
 -----
